@@ -30,6 +30,18 @@
 .txt-center{text-align: center;}
 .txt-left{text-align: left;}
 
+.cta{
+	margin: 5%;
+	padding: 5%;
+}
+.cta:hover{
+	animation-name: anim-teste1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	cursor: pointer;
+}
+
+
 .logotipo{
   		font-family: "Lemon", serif;
   		font-weight: 400;
@@ -108,15 +120,56 @@ main{
 		background-color: red;
 	}
 }
-.cta{
-	margin: 5%;
-	padding: 5%;
+/* Serviços */
+.servicos h4{ color:var(--cor3); }
+.servicos img{
+	width: 90%;
+	height: 90%;
+	margin: auto;
+
 }
-.cta:hover{
-	animation-name: anim-teste1;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
+.servicos{
+	margin-top: 2%;
+	margin-bottom:2%;
+}
+
+/*Produtos*/
+.home_produtos{
+	margin-top: 2%;
+	margin-bottom:2%;
+}
+
+.produto{
+	padding: 1%;
+}
+.produto img{width: 100%; height: auto;}
+.produto p{margin-top: 0.5%; margin-bottom: 0.5%}
+.produto button{
+	background-color: var(--cor2);
+	color: var(--cor6);
+	border: none;
+	padding: 4% 5%;
+	width: 100%;
+}
+.produto button:hover{
+	background-color: var(--cor3);
 	cursor: pointer;
 }
+
+/* Banner */
+.home_banner{
+	background-image:url('img/48.jpg') ;
+	
+	text-align: center;
+	padding: 10% 0%;
+	}
+
+.home_banner{
+	font-size: 1.8rem;
+	font-family: "Lemon", serif;
+	color: var(--cor7);
+	text-shadow: var(--cor3) 2px 2px ;
+}
+
 
 

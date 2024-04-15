@@ -1,0 +1,856 @@
+/* screen size */
+@media only screen and (max-width: 1900px) {
+    .ecra_nav{
+        margin-right: 20% !important;
+    }
+}
+
+
+@media only screen and (max-width: 1919px) {
+    .home{
+        display: none !important;
+    }
+}
+
+
+@media only screen and (max-width: 1800px){
+    .ecra1800{
+      display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1500px){
+    .ecra1500{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1200px){
+    .ecra1200{
+        display: none;
+    }
+}
+
+
+body{
+    margin: 0;
+    background-image: url(../images/background.png);
+    background-image: repeating-radial-gradient();
+}
+
+
+/* login */
+.box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(254, 126, 126, 0.3);
+    backdrop-filter: blur(10px);
+    transition: all 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.box:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.box-close{
+    font-size: 2.5rem;
+    position: fixed;
+    top: 27%;
+    right: 32%;
+    color: #fe0606;
+    text-decoration: none;
+}
+
+
+.box_background{
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 1);
+    width: 40%;
+    height: 49%;
+    position: fixed;
+}
+
+
+.conteudo_box{
+    padding: 15%;
+}
+
+
+.conteudo_box input{
+    width: 92%;
+    padding: 3%;
+    margin-bottom: 5%;
+    border: 0.1rem solid #ccc;
+    border-radius: 4px;
+}
+
+.conteudo_box button{
+    background-color: var(--corverclaro);
+    font-size: 1.2rem;
+    color: #ffffff;
+    padding: 4%;
+    margin-top: 4%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+.conteudo_box button:hover{
+    background-color: var(--corverescuro);
+}
+
+
+/* home html */
+/* nav */
+.nav_bar{
+    display: flex;
+    overflow: hidden;
+    background-color: var(--corverescuro);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(0,0,0,.15);
+}
+
+
+.nav_bar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.nav_bar a:last-child{
+    margin-right: 0%;
+}
+
+
+.navigation{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-top: 0.5%;
+    margin-right: 2%;
+    padding: 0.3% 0.5% 0.3% 0.5%;
+    border-radius: 12px;
+}
+
+
+.navigation:hover{
+    cursor: pointer;
+    background-color:rgba(184, 0, 0, 1);
+}
+
+
+.nav_bar i{
+    color: var(--coramar);
+}
+
+
+.empresa{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    line-height: 100%;
+    transition: margin 0.5s ease;
+    font-style: normal; 
+    margin: -0.5% 46% -0.5% 0%;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+/* banner */
+.home_banner{
+    background-image: url("/assets/images/localizacoes_esq.png");;
+    background-size: cover;
+    height: 20rem;
+    padding: 0% 0 10% 40%;
+    border-radius: 12px;
+}
+
+
+.home_banner h1, .home_banner h3{
+    font-family: "Protest Revolution", sans-serif;;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px black;
+    font-size: 4rem;
+    color: white;
+}
+
+.home_banner h1{
+    margin: 0;
+    font-size: 8rem;
+    padding-top: 10%; 
+}
+
+
+.home_banner h3{
+    margin-top: 1%;
+}
+
+
+.home_banner p{
+    text-align: right;
+    font-size: 0.8rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 7%;
+    padding-right: 1%;
+}
+
+
+/* separadores */
+.separador{
+    width: 100%;
+    height: 0.12rem;
+    background-color: black;
+    margin: 6% 0%;
+}
+
+
+/* produtos */
+.best_sellers{
+    height: 28.8rem;
+    border-radius: 12px;
+    background-image: url("../images/best_sellers.png");
+    background-size: cover;
+    box-shadow: 2px 3px rgba(0,0,0,.15);
+    margin-right: 6%;
+    margin-bottom: 3%;
+    padding-top: 6%;
+}
+
+
+.best_sellers p{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    margin: 0%;
+}
+
+
+.best_sellers_pizza p{
+    color: var(--coramar);
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-style: italic;
+    margin: -3%;
+}
+
+
+.best_sellers_button{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    background-color: var(--coramar);
+    padding: 1.5%;
+    margin: 78% 35% 0% 35%;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+.best_sellers_button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.seller{
+    height: 30rem;
+    border-radius: 12px;
+    background-image: url("../images/seller.jpg");
+    background-size: cover;
+    box-shadow: 2px 3px rgba(0,0,0,.15);
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+
+.seller_icon{
+    height: 30rem;
+    background-image: url("../images/seal.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20rem;
+    margin-left: 60%;
+    transform: rotate(20deg);
+}
+
+
+.seller p{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+    padding-top: 40%;
+    text-shadow: 0 0 5px var(--corverd), 0 0 10px var(--corverd);
+}
+
+
+.produto{
+    border-radius: 12px;
+    background-image: url("../images/localizacoes.png");
+    box-shadow: 2px 3px rgba(0,0,0,.15);
+    margin: 6%;
+}
+
+
+.produto img{
+    border-radius: 12px;
+    padding-top: 10%;
+    margin: 10%;
+    display: block;
+    width: 80%;
+}
+
+
+.produto p{
+    height: 10rem;
+    font-family: "Fredericka the Great", serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    margin: 0% 10%;
+    color: var(--coramar);
+}
+
+
+.produto button{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    color: #fff;
+    border: 0;
+    background-color: var(--corverd);
+    width: 84%;
+    height: 3rem;
+    margin-left: 8%;
+    margin-bottom: 8%;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+.produto button:hover{
+    background-color: #7DAB94;
+    color: black;
+}
+
+
+.propriedades{
+    margin-bottom: 4%;
+}
+
+
+.propriedades select{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+    border-radius: 12px;
+    width: 84%;
+    padding: 2%;
+    margin-left: 8%;
+    appearance: none;
+    background-image: url("../images/arrow.png");
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: 97%;
+    cursor: pointer;
+}
+
+
+/* fidelização */
+.f1{
+    font-family: "Protest Revolution", sans-serif;;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px black;
+    height: 30rem;
+    text-align: center;
+    font-size: 3.5rem;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 2px 3px rgba(0,0,0,.15);
+    padding: 9% 3% 0% 3%;
+    background-color: var(--corverd);
+    margin: 0% 3% 0% 6%;
+}
+.f2{
+    font-family: "Protest Revolution", sans-serif;;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px black;
+    height: 30rem;
+    border-radius: 12px;
+    box-shadow: 2px 3px rgba(0,0,0,.15);
+    padding: 9% 7% 0% 7%;
+    text-align: center;
+    font-size: 3.5rem;
+    color: white;
+    margin: 0 3% 0 3%;
+    background-color: var(--coramar);
+}
+
+.f3{
+    font-family: "Protest Revolution", sans-serif;;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px black;
+    height: 30rem;
+    color: white;
+    border-radius: 12px;
+    box-shadow: 2px 3px rgba(0,0,0,.15);
+    padding: 9% 10% 0% 10%;
+    margin-left: 3%;
+    margin-right: 6%;
+    background-color: var(--corverclaro);
+}
+
+
+.f3 p{
+    display: inline;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid white;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: transparent;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: white;
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: white;
+    font-weight:700;    
+    }
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-color: white;
+  border-image-slice: 1;
+}
+
+.f3-checkbox{
+    margin-top: 4%;
+    cursor: pointer;
+}
+.submit_button{
+    font-family: "Protest Revolution", sans-serif;;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px black;
+    margin:0 auto;
+    display:block;
+    padding: 3%;
+    margin-top: 7%;
+    background-color: var(--corverd);
+    border-radius: 12px;
+    color: white;
+    border: 0;
+    font-size: 2rem;
+}
+.submit_button:hover{
+    cursor: pointer;
+    background-color: #7DAB94;
+}
+
+
+/* banner lojas */
+.banner_lojas{
+    font-family: "Protest Revolution", sans-serif;;
+    font-weight: 400;
+    color: white;
+    height: 25rem;
+    border-radius: 12px;
+    background-image: url("/assets/images/banner3pizzas.png");
+    background-size: cover;
+    text-shadow: 2px 2px 2px black;
+}
+
+.banner_lojas h1{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+
+.banner_lojas p{
+    margin-bottom: 0;
+    margin-top: 5%;
+    padding-left: 30%;
+    font-size: 2rem;
+}
+
+.banner_lojas i{
+    font-size: 7rem;
+    margin-left: 58%;
+    margin-top: -6%;
+    color: white;
+}
+
+.banner_lojas i:hover{
+    font-size: 8rem;
+    margin-left: 57.5%;
+}
+
+.numbers{
+    
+    margin-top: -4.5% !important;
+    padding-left: 61.5% !important;
+    font-weight: bold;
+}
+
+.stores{
+    margin-top: -0.4% !important;
+    padding-left: 59.9% !important;
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+}
+
+/* produtos html */
+
+.banner_produtos{
+    padding: 10% 0 0 40%;
+    font-size: 6rem;
+    font-family: "Protest Revolution", sans-serif;;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 12px;
+    background-size: cover;
+    height: 20rem;
+    background-image: url("../images/localizacoes_esq.png");
+}
+    
+
+.produto_produtos{
+    border-radius: 12px;
+    background-image: url("../images/localizacoes.png");
+    box-shadow: 2px 3px rgba(0,0,0,.15);
+    margin: 6%;
+}
+
+
+.produto_produtos img{
+    border-radius: 12px;
+    padding-top: 10%;
+    margin: 10%;
+    display: block;
+    width: 80%;
+}
+
+
+.produto_produtos p{
+    height: 10rem;
+    font-family: "Fredericka the Great", serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    margin: 0% 10%;
+    color: var(--coramar);
+}
+
+
+.produto_produtos button{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    color: #fff;
+    border: 0;
+    background-color: var(--corverd);
+    width: 84%;
+    height: 3rem;
+    margin-left: 8%;
+    margin-bottom: 8%;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+.produto_produtos button:hover{
+    background-color: #7DAB94;
+    color: black;
+}
+
+
+.propriedades_produto{
+    margin-bottom: 4%;
+}
+
+
+.propriedades_produto select{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+    border-radius: 12px;
+    width: 84%;
+    padding: 2%;
+    margin-left: 8%;
+    appearance: none;
+    background-image: url("../images/arrow.png");
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: 97%;
+    cursor: pointer;
+}
+
+
+/* especiais html */
+.banner_especiais{
+    padding: 10% 0 0 40%;
+    font-size: 6rem;
+    font-family: "Protest Revolution", sans-serif;;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 12px;
+    background-size: cover;
+    height: 20rem;
+    background-image: url("../images/localizacoes_esq.png");
+}
+
+.produto_especiais{
+    padding-top: 2%;
+    border-radius: 12px;
+    background-image: url("../images/localizacoes.png");
+    box-shadow: 2px 3px rgba(0,0,0,.15);
+    
+}
+.produto_especiais img{
+    object-fit: cover;
+    height: 25rem;
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 12px;
+    display: block;
+    width: 80%;
+}
+
+
+.nome-especiais{
+    font-family: "Fredericka the Great", serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: left;
+    padding:0% 0% 0% 10%;
+    color: var(--coramar);
+}
+
+.propriedades_esp{
+    margin-bottom: 4%;
+}
+
+
+.propriedades_esp select{
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+    border-radius: 12px;
+    width: 40%;
+    padding: 2%;
+    margin-left: 40%;
+    appearance: none;
+    background-image: url("../images/arrow.png");
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: 97%;
+    cursor: pointer;
+}
+.preco-especiais{
+    font-family: "Fredericka the Great", serif;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    margin: 1% 10% 2% 10%;
+    color: var(--corverd);
+}
+.produto_especiais button{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    color: #fff;
+    border: 0;
+    background-color: var(--corverd);
+    width: 25%;
+    height: 7rem;
+    margin-left: 37.5%;
+    margin-bottom: 2%;
+    font-size: 1.3rem;
+    border-radius: 12px;
+}
+.produto_especiais button:hover{
+    background-color: #7DAB94;
+    color: black;
+    
+}
+
+
+/* localizacoes html */
+.banner_localizacoes{
+    padding: 10% 0 0 40%;
+    font-size: 6rem;
+    font-family: "Protest Revolution", sans-serif;;
+    font-weight: 400;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 12px;
+    height: 20rem;
+    background-image: url("../images/localizacoes_esq.png");
+    background-size: cover;
+}
+
+
+.localizacao{
+    height: 21rem;
+    width: 100%;
+    border-radius: 12px;
+    background-image: url("../images/localizacoes.png");
+    background-size: cover;
+    box-shadow: 2px 3px rgba(0,0,0,.15);
+    margin-bottom: 2%;
+}
+
+
+.localizacao h1{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: var(--coramar);
+    text-shadow: 3px 3px 3px black;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+
+.localizacao h2{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 10%;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+.localizacao h2:hover{
+    cursor: pointer;
+    color: var(--corverd);
+}
+
+
+.localizacao p{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    line-height: 120%;
+    text-shadow: 1px 1px 1px black;
+    margin-left: 10%;
+}
+
+
+.mapa_right{
+    text-align: right;
+    padding-top: 1%;
+    padding-right: 1%;
+}
+
+
+.mapa_left{
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+
+/* footer */
+.footer{
+    margin-top: 3%;
+}
+
+
+.footer i{
+    color: black;
+    font-size: 2rem;
+    margin-right: 1%;
+}
+
+
+.copyright{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+
+.credits{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0.5%;
+}

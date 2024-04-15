@@ -1,25 +1,177 @@
+@font-face{
+font-family: 'zeniq';
+src:url('/assets/fonts/Zeniq.ttf') format('truetype');
+}
 body{
     margin: 0;
+    background-color: #222831;
 }
 
-#ul_nav_bar{
-    padding: 0;
-    
+#nav_bar{
+    position: fixed;
+    padding: 1%;
+    width: 98%;
+    background-color: #00ADB5;
+    box-shadow: 2px 3px rgba(255,255,255,0.7);
 }
+
 nav a{
+    font-family: 'zeniq';
+    border-radius: 12px;
     padding: 0.5%;
     background-color: #393E46;
+    margin-bottom: 5%;
+    margin-right: 1%;
     text-decoration: none;
     color: #EEEEEE;
 }
+nav a i{
+    color: #EEEEEE;
+}
+
+.second_nav{
+    padding-top: 1%;
+    margin: 0;
+    text-align: center;
+}
+
+.second_nav a{
+    margin-left: 2%;
+    padding: 2%;
+}
+
+.third_nav{
+    padding-top: 1%;
+    margin: 0;
+    text-align: right;
+}
+
+.third_nav a{
+    margin-left: 2%;
+    border-radius: 100px;
+    padding: 2%;
+}
+
+#logo_nav{
+    background-color: transparent;
+}
 #logo_nav img{
     
-    width: 3%;
+    width: 9%;
     height: auto;
     border-radius: 12px;
 }
-#nav_bar{
-    padding: 1%;
+
+
+header{
+    padding-top: 5%;
+}
+
+#game{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    background-color: #00ADB5;
+    margin-top: 0%;
+    padding: 0%;
+    font-size: 15rem;
+    text-align: center;
+    color: #00ADB5;
+    font-family: 'zeniq';
+    
+}
+
+
+#on{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -2%;
+    padding: 0;
+    font-size: 25rem;
+    text-align: center;
+    color: #393E46;
+    font-family: 'zeniq';
+}
+.CTA{
+    padding: 5% 0 5% 0;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: var(--cinzaclaro);
+    border-radius: 24px;
+}
+.CTA h1{
+    font-family: 'zeniq';
+    color:var(--branco);
+    font-size: 3.5rem;
+    margin-top: 0;
+}
+
+.CTA a{
+    font-family: 'zeniq';
+    color: var(--cinzaescuro);
+    padding: 1% 2% 1% 2%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: var(--branco);
+}
+
+.section3{
+    width: 80% !important;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.section3_1{
+    background-color: #005293;
+    margin:0 3% 0 0;
+    border-radius: 12px;
+    height: 25rem;
+    text-align: center;
+    font-size: 8rem;
+    font-family: 'zeniq';
+    color: var(--branco);
+}
+.section3_1 p{
+    display: inline-block;
+    vertical-align: middle;
+}
+.section3_2{
+    background-color: #E60012;
+    margin:0 2.3% 0 0;
+    border-radius: 12px;
+    height: 25rem;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'zeniq';
+    color: var(--branco);
+}
+.section3_2 p{
+    margin-top: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.section3_3{
+    background-color: #520847;
+    margin:0 3% 0 0;
+    border-radius: 12px;
+    height: 25rem;
+    text-align: center;
+    font-size: 8rem;
+    font-family: 'zeniq';
+    color: var(--branco);
+}
+.section3_3 p{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section4{
+    width: 80% !important;
+    margin-top: 5%;
+    margin-left: 10%;
 }

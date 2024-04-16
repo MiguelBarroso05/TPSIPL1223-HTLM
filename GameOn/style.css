@@ -132,55 +132,50 @@ header {
 }
 
 .section3_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    text-decoration: none;
     background-color: #005293;
-    margin: 0 3% 0 0;
     border-radius: 12px;
-    height: 25rem;
+    height: 20rem;
     text-align: center;
     font-size: 8rem;
     font-family: 'zeniq';
     color: var(--branco);
 }
 
-.section3_1 p {
-    display: inline-block;
-    vertical-align: middle;
-}
 
 .section3_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    text-decoration: none;
     background-color: #E60012;
-    margin: 0 2.3% 0 0;
     border-radius: 12px;
-    height: 25rem;
+    height: 20rem;
     text-align: center;
     font-size: 5rem;
     font-family: 'zeniq';
     color: var(--branco);
 }
 
-.section3_2 p {
-    margin-top: 30%;
-    display: inline-block;
-    vertical-align: middle;
-}
 
 .section3_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
     background-color: #520847;
-    margin: 0 3% 0 0;
     border-radius: 12px;
-    height: 25rem;
+    height: 20rem;
     text-align: center;
     font-size: 8rem;
     font-family: 'zeniq';
     color: var(--branco);
-}
-.section3:hover{
-    cursor: pointer;
-}
 
-.section3_3 p {
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .section4 {
@@ -236,4 +231,136 @@ header {
     width: 80% !important;
     margin-top: 5%;
     margin-left: 10%;
+    background-color: var(--cinzaclaro);
+    border-radius: 12px;
+    padding-bottom: 2%;
+}
+.mapa h1{
+    margin-left: 10%;
+    font-size: 2.5rem;
+    font-family: 'zeniq';
+    color: var(--branco);
+}
+.mapa iframe{
+    border-radius: 12px;
+    margin-left: 12%;
+}
+.form h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'zeniq';
+    color: var(--branco);
+}
+.form label{
+    margin-left: 20%;
+    font-size: 2rem;
+    font-family: 'zeniq';
+    color: var(--branco);
+}
+
+.input_text{
+    border: none;
+    margin-left: 20%;
+    padding: 1% 5%;
+    border-radius: 12px;
+}
+.input_text:focus{
+    outline: none;
+}
+
+.submit_botton{
+    cursor: pointer;
+    margin-left: 20%;
+    border-radius: 24px;
+    padding: 1%;
+    font-family: 'zeniq';
+    font-size: 2.0rem;
+    border: none;
+    background-color: var(--azul);
+    color: var(--branco);
+}
+
+footer{
+    margin-top: 2%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: solid;
+    border-color: var(--branco);
+    background-color: var(--azul);
+    
+}
+.footer_logo{
+padding: 10% 0 0 10%;
+}
+.footer_logo img{
+    border-radius: 12px;
+    width: 12%;
+}
+
+.footer_social{
+    padding-top: 15%;
+    text-align: center;
+}
+.footer_social a{
+    margin: 0 2% 0 2%;
+    border-radius: 50px;
+    padding: 2%;
+    background-color: var(--cinzaescuro);
+    font-size: 1.5rem;
+    color: var(--branco);
+}
+.footer_submit label{
+    margin-left: 20%;
+    color: var(--branco);
+    font-size: 1.5rem;
+}
+.footer_submit h1{
+    color: var(--branco);
+    text-align: center;
+}
+
+.submit_botton_footer{
+    cursor: pointer;
+    margin-left: 20%;
+    border-radius: 24px;
+    padding: 1%;
+    font-family: 'zeniq';
+    font-size: 1rem;
+    border: none;
+    background-color: var(--cinzaescuro);
+    color: var(--branco);
+}
+
+.categorias{
+    padding-top: 8%;
+    margin-bottom: 2%;
+}
+.categorias_option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    text-decoration: none;
+    background-color: #005293;
+    border-radius: 12px;
+    height: 20rem;
+    text-align: center;
+    font-size: 8rem;
+    font-family: 'zeniq';
+    color: var(--branco);
+}
+.categorias_option_nintendo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    text-decoration: none;
+    background-color: #005293;
+    border-radius: 12px;
+    height: 20rem;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'zeniq';
+    color: var(--branco);
 }

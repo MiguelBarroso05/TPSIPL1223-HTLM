@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+    .form_login{
+        margin-left: 0% ;
+    }
+    #game_about{
+        font-size: 5rem;
+    }
+    #on_about{
+        font-size: 10rem;
+        margin-top: -21%;
+    }
+    footer h1{
+        font-size: 1.2rem;
+    }
+    .footer_submit label{
+        font-size: 1rem;
+    }
+    .footer_submit .input_text{
+        width: 60%;
+    }
+    .footer_logo img{
+        width: 35%;
+    }
+    .footer_social{
+        padding-top: 30%;
+    }
+    .about{
+        padding-top: 50%;
+    }
+    .about .col-4{
+        display: block;
+        width: 100%;
+    }
+    .header_about{
+        height: 5vh;
+    }
+    .header_about #game_about{
+        margin-top: -30%;
+    }
+    .header_about #on_about{
+        margin-top: -14%;
+    }
+    .lorem_about{
+        margin-bottom: 35%;
+    }
+    .categorias .col-3{
+       display: block;
+       width: 100%;
+    }

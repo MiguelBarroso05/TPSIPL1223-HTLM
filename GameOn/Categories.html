@@ -10,10 +10,13 @@
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/root.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/mediaQuerys.css'>
     <link rel="stylesheet" type="text/css" href="./assets/fonts/fontawesome-free-6.5.2-web/css/all.css">
 </head>
 
 <body>
+    <div id="page-container">
+        <div id="content-wrap">
     <nav id="nav_bar" class="row">
         <div class=" col col-4 frist_nav">
             <a id="logo_nav" href="index.html"><img src="assets/images/logo.PNG"></a>
@@ -22,7 +25,7 @@
             <a id="sobre_nav" href="about.html">SOBRE</a>
             <a id="categorias_nav" href="Categories.html">CATEGORIAS</a>
             <a id="produtos_nav" href="products.html">PRODUTOS</a>
-            <a id="contactos_nav" href="#">CONTACTOS</a>
+            <a id="contactos_nav" href="index.html#contactos">CONTACTOS</a>
 
         </div>
         <div class=" col col-4 third_nav">
@@ -32,52 +35,53 @@
             <a id="login_nav" href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a>
         </div>
     </nav>
-    <section>
+    <section class="cat">
         <div class="row categorias">
             <div class=" col col-3 ">
-                <a href="products.html" class="categorias_option">
+                <a href="products.html#ps1" class="categorias_option">
                     PS5
                 </a>
             </div>
             <div class=" col col-3 ">
-                <a href="products.html" class="categorias_option_nintendo">
+                <a href="products.html#ps2" class="categorias_option_nintendo">
                     NINTENDO
                 </a>
             </div>
             <div class=" col col-3 ">
-                <a href="products.html" class="categorias_option">
+                <a href="products.html#ps3" class="categorias_option">
                     PC
                 </a>
             </div>
             <div class=" col col-3 ">
-                <a href="products.html" class="categorias_option">
+                <a href="products.html#ps4" class="categorias_option last">
                     CAT.4
                 </a>
             </div>
         </div>
-        <div class="row">
+        <div class="row categorias">
             <div class=" col col-3 ">
-                <a href="products.html" class="categorias_option">
+                <a href="products.html#ps5" class="categorias_option">
                     CAT.5
                 </a>
             </div>
             <div class=" col col-3 ">
-                <a href="products.html" class="categorias_option">
+                <a href="products.html#ps6" class="categorias_option">
                     CAT.6
                 </a>
             </div>
             <div class=" col col-3 ">
-                <a href="products.html" class="categorias_option">
+                <a href="products.html#ps7" class="categorias_option">
                     CAT.7
                 </a>
             </div>
             <div class=" col col-3 ">
-                <a href="products.html" class="categorias_option">
+                <a href="products.html#ps8" class="categorias_option last">
                     CAT.8
                 </a>
             </div>
         </div>
     </section>
+    </div>
     <footer>
         <div class="row">
             <div class="col col-3 ">
@@ -105,6 +109,7 @@
             © Miguel Barroso
         </div>
     </footer>
+    </div>
 </body>
 
 </html>

@@ -2,6 +2,9 @@
     font-family: 'zeniq';
     src: url('/assets/fonts/Zeniq.ttf') format('truetype');
 }
+#menu_moblie{
+    display: none;
+}
 
 body {
     margin: 0;

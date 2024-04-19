@@ -12,92 +12,121 @@
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/root.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='/assets/css/mediaQuerys.css'>
     <link rel="stylesheet" type="text/css" href="./assets/fonts/fontawesome-free-6.5.2-web/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
+
     <div id="page-container">
         <div id="content-wrap">
-    <nav id="nav_bar" class="row" style="z-index: 1;">
-        <div class=" col col-4 frist_nav">
-            <a id="logo_nav" href="index.html"><img src="assets/images/logo.PNG"></a>
-        </div>
-        <div class=" col col-4 second_nav">
-            <a id="sobre_nav" href="about.html">SOBRE</a>
-            <a id="categorias_nav" href="Categories.html">CATEGORIAS</a>
-            <a id="produtos_nav" href="products.html">PRODUTOS</a>
-            <a id="contactos_nav" href="index.html#contactos">CONTACTOS</a>
-
-        </div>
-        <div class=" col col-4 third_nav">
-            <a id="facebook_nav" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
-            <a id="instagram_nav" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-            <a id="twitter_nav" href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
-            <a id="login_nav" href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a>
-        </div>
-    </nav>
-    <div class="row about">
-        <div class="col col-4 ">
-            <header class="header_about">
-                <h1 id="game_about">GAME</h1>
-                <h1 id="on_about" class="mudanca-cor">ON</h1>
-            </header>
-        </div>
-        <div class="col col-4 lorem_about">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla 
-            reprehenderit velit molestias harum iure voluptates, laudantium 
-            ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate tempora!
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla 
-            reprehenderit velit molestias harum iure voluptates, laudantium 
-            ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate tempora!           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla 
-            reprehenderit velit molestias harum iure voluptates, laudantium 
-            ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate tempora!           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla 
-            reprehenderit velit molestias harum iure voluptates, laudantium 
-            ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate tempora!           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla 
-            reprehenderit velit molestias harum iure voluptates, laudantium 
-            ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate tempora!           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla 
-            reprehenderit velit molestias harum iure voluptates, laudantium 
-            ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate tempora!           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla 
-            reprehenderit velit molestias harum iure voluptates, laudantium 
-            ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate tempora!           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla 
-            reprehenderit velit molestias harum iure voluptates, laudantium 
-            ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate tempora!
-        </div>
-        <div class="col col-4">
-            <header class="header_about">
-                <h1 id="game_about">GAME</h1>
-                <h1 id="on_about" class="mudanca-cor">ON</h1>
-            </header>
-        </div>
-    </div>
-    </div>
-    <footer>
-        <div class="row">
-            <div class="col col-3 ">
-                <div class="footer_logo">
-                    <a id="logo_footer" href="#"><img src="assets/images/logo.PNG"></a>
+            <nav id="nav_bar" class="row">
+                <div class=" col col-4 frist_nav">
+                    <a id="logo_nav" href="index.html"><img src="assets/images/logo.PNG"></a>
                 </div>
-            </div>
-            <div class="col col-3 ">
-                <div class="footer_social">
+                <div class=" col col-4 second_nav">
+                    <a id="sobre_nav" href="about.html">SOBRE</a>
+                    <a id="categorias_nav" href="Categories.html">CATEGORIAS</a>
+                    <a id="produtos_nav" href="products.html">PRODUTOS</a>
+                    <a id="contactos_nav" href="index.html#contactos">CONTACTOS</a>
+
+                </div>
+                <div class=" col col-4 third_nav">
                     <a id="facebook_nav" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
                     <a id="instagram_nav" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
                     <a id="twitter_nav" href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a id="login_nav" href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a>
                 </div>
+                <div class="col col-4">
+                    <button id="menu_moblie"><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </nav>
+            <div id="menu_content">
+                <a id="sobre_nav" href="about.html">SOBRE</a>
+                <a id="categorias_nav" href="Categories.html">CATEGORIAS</a>
+                <a id="produtos_nav" href="products.html">PRODUTOS</a>
+                <a id="contactos_nav" href="index.html#contactos">CONTACTOS</a>
             </div>
-            <div class="col col-3 ">
-                <div class="footer_submit">
-                    <h1>Subscreve a nossa newsletter</h1>
-                    <label for="email">E-mail<br></label>
-                    <input class="input_text" type="text" id="email" name="email"><br><br>
-                    <input class="submit_botton_footer" type="submit" value="Submit">
+
+            <div class="row about">
+                <div class="col col-4 ">
+                    <header class="header_about about_first">
+                        <h1 id="game_about">GAME</h1>
+                        <h1 id="on_about" class="mudanca-cor">ON</h1>
+                    </header>
+                </div>
+                <div class="col col-4 ">
+                    <div class="lorem_about"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+                        reprehenderit velit molestias harum iure voluptates, laudantium
+                        ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate
+                        tempora!
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+                        reprehenderit velit molestias harum iure voluptates, laudantium
+                        ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate
+                        tempora! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+                        reprehenderit velit molestias harum iure voluptates, laudantium
+                        ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate
+                        tempora! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+                        reprehenderit velit molestias harum iure voluptates, laudantium
+                        ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate
+                        tempora! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+                        reprehenderit velit molestias harum iure voluptates, laudantium
+                        ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate
+                        tempora! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+                        reprehenderit velit molestias harum iure voluptates, laudantium
+                        ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate
+                        tempora! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+                        reprehenderit velit molestias harum iure voluptates, laudantium
+                        ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate
+                        tempora! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+                        reprehenderit velit molestias harum iure voluptates, laudantium
+                        ea officia nobis dolore reiciendis! Totam facilis delectus amet obcaecati fuga eos, voluptate
+                        tempora!</div>
+
+                </div>
+                <div class="col col-4">
+                    <header class="header_about about_last">
+                        <h1 id="game_about">GAME</h1>
+                        <h1 id="on_about" class="mudanca-cor">ON</h1>
+                    </header>
                 </div>
             </div>
         </div>
-        <div style="text-align: center;">
-            © Miguel Barroso
-        </div>
-    </footer>
+        <footer>
+            <div class="row">
+                <div class="col col-3 ">
+                    <div class="footer_logo">
+                        <a id="logo_footer" href="#"><img src="assets/images/logo.PNG"></a>
+                    </div>
+                </div>
+                <div class="col col-3 ">
+                    <div class="footer_social">
+                        <a id="facebook_nav" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a id="instagram_nav" href="https://www.instagram.com"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a id="twitter_nav" href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col col-3 ">
+                    <div class="footer_submit">
+                        <h1>Subscreve a nossa newsletter</h1>
+                        <label for="email">E-mail<br></label>
+                        <input class="input_text" type="text" id="email" name="email"><br><br>
+                        <input class="submit_botton_footer" type="submit" value="Submit">
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                © Miguel Barroso
+            </div>
+        </footer>
     </div>
+    <script>
+        $(document).ready(function(){
+            $("#menu_moblie").click(function(){
+                $("#menu_content").toggle();
+            });
+        });
+    </script>
 </body>
 
 </html>

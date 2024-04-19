@@ -1,115 +1,186 @@
 @media only screen and (max-width: 600px) {
-    .form_login{
-        margin-left: 0% ;
+    .form_login {
+        z-index: -1;
+        margin-left: 0%;
     }
-    #game_about{
+    .header_login #game_about {
         font-size: 5rem;
     }
-    #on_about{
+
+    .header_login #on_about {
         font-size: 10rem;
         margin-top: -21%;
     }
-    footer h1{
+
+    footer h1 {
         font-size: 1.2rem;
     }
-    .footer_submit label{
+
+    .footer_submit label {
         font-size: 1rem;
     }
-    .footer_submit .input_text{
+
+    .footer_submit .input_text {
         width: 60%;
     }
-    .footer_logo img{
+
+    .footer_logo img {
         width: 35%;
     }
-    .footer_social{
+
+    .footer_social {
         padding-top: 30%;
     }
-    .about{
+
+    .about {
         padding-top: 50%;
     }
-    .about .col-4{
+
+    .about .col-4 {
         display: block;
         width: 100%;
     }
-    .header_about{
-        height: 5vh;
+
+    .lorem_about {
+        margin: 0 4% 0 4%;
     }
-    .header_about #game_about{
-        margin-top: -30%;
+
+    .header_about {
+        height: 15vh;
     }
-    .header_about #on_about{
-        margin-top: -14%;
+
+    .about_first #game_about {
+        margin-top: -35%;
     }
-    .lorem_about{
+
+    .about_last #game_about {
+        margin-top: -32%;
+    }
+
+    .about_last #on_about {
+        margin-top: -32%;
+    }
+
+    .header_about #on_about {
+        margin-top: -9%;
+    }
+
+    .lorem_about {
         margin-bottom: 35%;
     }
-    .categorias .col-3{
-       display: block;
-       width: 100%;
-    }
-    .categorias_option{
-        margin-bottom: 2%;
-    }
-    .categorias_option_nintendo{
-        margin-bottom: 2%;
-    }
-    .row_produtos .col-3{
+
+    .categorias .col-3 {
+        display: block;
         width: 100%;
     }
-    .categorias{
+
+    .categorias_option {
+        margin-bottom: 2%;
+    }
+
+    .categorias_option_nintendo {
+        margin-bottom: 2%;
+    }
+
+    .row_produtos .col-3 {
+        width: 100%;
+    }
+
+    .categorias {
         margin-bottom: 0%;
     }
-    .section4 .col-3{
+
+    .section4 .col-3 {
         display: block;
         width: 100%;
         margin-bottom: 2%;
     }
-    .telemovel_nintendo{
+
+    .telemovel_nintendo {
         font-size: 5rem;
     }
-    .section4{
+
+    .section4 {
         margin-top: 0;
     }
-    #game{
+
+    #game {
         font-size: 8rem;
         margin-top: 12%;
     }
-    #on{
+
+    #on {
         font-size: 16rem;
     }
-    .section3 .col-3{
+
+    .section3 .col-3 {
         margin-bottom: 2%;
         display: block;
         width: 100%;
     }
-    .section3_2{
+
+    .section3_2 {
         font-size: 4rem;
         margin-right: 0;
     }
-    .section3_1{
+
+    .section3_1 {
         margin-right: 0;
     }
-    .section5 .col-6{
+
+    .section5 .col-6 {
         display: block;
         width: 100%;
     }
-    .mapa iframe{
+
+    .mapa iframe {
         width: 80%;
     }
+
     #logo_nav img {
         width: 26%;
     }
-    .second_nav{
+
+    .second_nav {
         display: none;
     }
-    .third_nav{
+
+    .third_nav {
+        padding-top: 1.7%;
         font-size: 1.5rem;
         text-align: center;
     }
-    .third_nav a{
-        padding: 3.5%;
+
+    .product_page .col-4 {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: 15%;
+        height: auto;
     }
-    #menu_moblie{
+
+    .product_page .col-8 {
+        margin-left: 1%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .product_page p {
+        margin-right: 3%;
+    }
+
+    .bc_product {
+        width: 25%;
+    }
+
+    .third_nav a {
+        font-size: 0.7em;
+        padding: 5%;
+    }
+
+    #menu_moblie {
         margin-left: 70%;
         background-color: transparent;
         border: none;
@@ -117,17 +188,159 @@
         color: var(--branco);
         align-items: right;
     }
-    #menu_moblie i{
+
+    #menu_moblie i {
         font-size: 2rem;
-        border-radius:12px ;
+        border-radius: 12px;
         padding: 20%;
         background-color: var(--cinzaclaro);
     }
-    #menu_content{
-        
+
+    #menu_content {
+        z-index: 1;
+        position: fixed;
+        padding-top: 12%;
         width: 100%;
     }
-    #menu_content a{
+
+    nav {
+        z-index: 2;
+    }
+
+    .footer_social a {
+        padding: 5%;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .col-4 {
+        width: 20%;
+    }
+
+    #logo_nav img {
+        width: 30%;
+    }
+
+    .third_nav {
+        padding-top: 2dvh;
+        padding-bottom: 1%;
+        font-size: 1em;
+    }
+
+    .third_nav a {
+        padding: 5%;
+    }
+
+    .second_nav {
+        padding-top: 2.5%;
+        width: 60%;
+        font-size: 0.8rem;
+
+    }
+
+    .form_login {
+        z-index: -1;
+        margin-left: 2%;
+        top: 35%;
+    }
+
+    .col-tablet-login {
+        width: 30%;
+    }
+
+    .header_login{
+        z-index: -1;
+    }
+
+    .footer_logo {
+        padding-top: 20%;
+    }
+
+    .footer_logo img {
+
+        width: 30%;
+    }
+
+    .footer_social {
+        padding-top: 30%;
+    }
+
+    .footer_social a {
+        padding: 5%;
+        font-size: 1rem;
+    }
+
+    .product_page {
+        padding-top: 12%;
+    }
+
+    .product_page img {
+        padding-top: 12%;
+        height: 46vh;
+    }
+
+    .product_page .col-8 {
+        padding-bottom: 2%;
+        padding-left: 5%;
+    }
+
+    .bc_product {
+        width: 28%;
+    }
+    .categorias .col-3{
+        margin-bottom: 2%;
+        width: 50%;
+        display: inline-flex;
+    }
+    .categorias_option{
         width: 100%;
+    }
+    .categorias_option_nintendo{
+        font-size: 4.7rem;
+    }
+    .divider{
+        width: 96%;
+    }
+    .section4 .col-3{
+        display: inline-flex;
+        width: 50%;
+        margin-bottom: 2%;
+    }
+    .about_last{
+        display: none;
+    }
+    .about_first{
+        z-index: -1;
+    }
+    .about .col-4{
+        width: 50%;
+    }
+    #game_about{
+        font-size: 5rem;
+    }
+    #on_about{
+        font-size: 10rem;
+        top: 53%;
+    }
+    .lorem_about {
+        margin-right: 3%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .mapa iframe {
+        width: 80%;
+    }
+    .section3_2{
+        height: 12rem;
+        font-size: 3rem;
+    }
+    .section3_1{
+        height: 12rem;
+        font-size: 5rem;
+    }
+    .section3_3{
+        height: 12rem;
+        font-size: 5rem;
     }
 }

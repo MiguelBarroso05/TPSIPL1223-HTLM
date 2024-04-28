@@ -1,0 +1,119 @@
+.row {
+    display: table;
+    width: 100%
+}
+
+.col {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+#logo {
+    border-radius: 12px;
+    margin: 1vh 2vh 0 5vh;
+    height: 150px;
+    width: 150px;
+}
+
+header h1 {
+    height: 50px;
+}
+
+header,
+.rowLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    text-transform: uppercase;
+}
+.bottons{
+    
+    margin:5vh 0 5vh 0;
+}
+
+a {
+    border-radius: 12px;
+    padding: 1.5vh;
+    font-size: 5vh;
+    margin-right: 5vh;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+
+.left {
+    padding-top: 2vh;
+    text-align: center;
+    height: 10vh;
+    border-radius: 24px;
+    margin: 1vh;
+    background-color: aqua;
+}
+
+.left p {
+    font-size: 5vh;
+    color: white;
+    margin-top: 0;
+}
+
+.right {
+    padding-top: 2vh;
+    height: 10vh;
+    border-radius: 24px;
+    margin: 1vh;
+    background-color: aquamarine;
+}

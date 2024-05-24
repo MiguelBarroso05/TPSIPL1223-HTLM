@@ -1,10 +1,10 @@
 <?php 
 
-include 'teste2/head.php';
-include 'teste2/header.php';
-include 'teste2/nav.php';
-include 'teste2/main.php';
-include 'teste2/footer.php';
+include 'teste/head.php';
+include 'teste/header.php';
+include 'teste/nav.php';
+include 'teste/main.php';
+include 'teste/footer.php';
 
 
 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Barroso-T02</title>
+    <link id="stylesheet" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Miguel Barroso-T02</h1>
+        <p id="current-date"></p>
+        <form id="user-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="dob">Data de Nascimento:</label>
+            <input type="date" id="ddn" name="ddn" required>
+
+            <label for="gender">Gênero:</label>
+            <select id="gender" name="gender" required>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            <label for="bio">Biografia:</label>
+            <textarea id="bio" name="bio" required></textarea>
+
+            <button type="button" onclick="handleClick_submit()">Enviar</button>
+        </form>
+        <div>
+            <p id="form-output"></p>
+            <p id="nome-output">a</p>
+            <p id="email-output">a</p>
+            <p id="ddn-output">a</p>
+            <p id="gender-output">a</p>
+            <p id="bio-output">a</p>
+        </div>
+        <button id="toggle-style" onclick="handleClick_style()">Alterar Estilo</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>T03</h1>
+
+    <button onclick="adicionarlista()">Adicionar à Lista</button>
+    <ul id="lista" class="horizontal-list"></ul>
+
+    <form id="content-form" onsubmit="mostrar(event)">
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title" required>
+
+        <label for="description">Descrição:</label>
+        <textarea id="description" name="description" rows="4" cols="50" required></textarea>
+
+        <label>Escolha uma imagem:</label>
+        <div class="imgs">
+            <input type="radio" id="image1" name="image" value="1.jpg" required>
+            <label for="image1"><img src="/1.jpg" alt="Imagem 1" width="100"></label>
+        </div>
+        <div class="imgs">
+            <input type="radio" id="image2" name="image" value="2.jpg">
+            <label for="image2"><img src="/2.jpg" alt="Imagem 2" width="100"></label>
+        </div>
+        <div class="imgs">
+            <input type="radio" id="image3" name="image" value="3.png">
+            <label for="image3"><img src="/3.png" alt="Imagem 3" width="100"></label>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="display-area" class="content"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
